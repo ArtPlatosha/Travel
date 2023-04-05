@@ -10,3 +10,45 @@
     --sphere-gradient-one: radial-gradient(50% 50% at 20% 25%, #686868 0%, #403F3F 35%, #222222 70%, #000000 100%);
     --sphere-gradient-two: radial-gradient(51.04% 51.04% at 18.94% 26.18%, #686868 0%, #403F3F 36.98%, #222222 70.83%, #000000 100%);
 }
+
+body {
+	font-family: 'Poppins', sans-serif;
+	background-color: #161813;
+}
+
+.navbar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9;
+	width: 100%;
+	height: 100px;
+	padding: 20px 30px;
+}
+
+.navbar.bg {
+	background-color: #161813;
+}
+
+.links-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	list-style: none;
+}
+
+.logo {
+	height: 50px;
+	margin-top: 10px;
+}
+
+.link-item {
+	margin: 0 30px;
+	transition: .5s;
+}
+
+.link-item a {
+	color: #fff;
+	text-decoration: none;
+	padding: 20px;
+}
