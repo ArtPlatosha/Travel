@@ -52,3 +52,64 @@ body {
 	text-decoration: none;
 	padding: 20px;
 }
+
+.hero-section {
+	width: 100%;
+	height: 100vh;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+}
+
+.background {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}
+
+.background-image {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.background::before,
+.background::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 50%;
+}
+
+.background::before {
+	top: 0;
+	left: 0;
+	background: var(--gradient-top);
+}
+
+.background::after {
+	bottom: 0;
+	left: 0;
+	background: var(--gradient-bottom);
+}
+
+.hero-section-title {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 300;
+	font-size: 80px;
+	text-align: center;
+	text-transform: capitalize;
+}
+
+.hero-section-sub-heading {
+	text-align: center;
+	text-transform: capitalize;
+	margin: 20px 0;
+	font-size: 20px;
+}
