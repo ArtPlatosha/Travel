@@ -178,6 +178,7 @@ body {
 	display: block;
 	margin: 30px auto;
 	text-align: center;
+	opacity: 0.5;
 }
 
 .tours-container {
@@ -245,4 +246,9 @@ body {
 	width: 15px;
 	height: 15px;
 	background-size: contain;
+}
+
+.services-section {
+	color: #fff;
+	padding: 80px 10vw;
 }
