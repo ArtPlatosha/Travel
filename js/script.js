@@ -1,3 +1,5 @@
+AOS.init()
+
 const sliderImage = ['img1.png', 'img2.png', 'img3.png', 'img4.png', 'img5.png', 'img6.png'];
 
 let slider = document.querySelector('.background-image');
@@ -31,3 +33,13 @@ const changeSliderImage = () => {
 		}, index * 100);
 	})
 }
+
+const navbar = document.querySelector('.navbar');
+
+window.addEventListener('scroll', () => {
+	if (scrollY >= 188 ) {
+		navbar.classList.add('bg');
+	} else {
+		navbar.classList.remove('bg');
+	}
+})
