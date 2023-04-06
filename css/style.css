@@ -138,3 +138,17 @@ body {
 	margin: 20px 0;
 	font-size: 20px;
 }
+
+.scroll-down-icon {
+	position: absolute;
+	bottom: 10%;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 20px;
+	animation: down ease 1s infinite;
+}
+
+@keyframes down {
+	from { bottom: 10% }
+	to { bottom: 8%}
+}
