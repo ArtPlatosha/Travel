@@ -152,3 +152,25 @@ body {
 	from { bottom: 10% }
 	to { bottom: 8%}
 }
+
+.explore-section {
+	position: relative;
+	width: 100%;
+	padding: 80px 10vw;
+	color: #fff;
+}
+
+.section-title {
+	font-size: 30px;
+	font-weight: 400;
+	text-align: center;
+	text-transform: capitalize;
+}
+
+.section-text {
+	width: 50%;
+	min-width: 300px;
+	display: block;
+	margin: 30px auto;
+	text-align: center;
+}
