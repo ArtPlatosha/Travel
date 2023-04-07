@@ -453,3 +453,52 @@ footer {
 .footer-text p {
 	margin: 20px 0;
 }
+
+@media screen and (max-width: 996px) {
+	.link-item {
+		margin: 0 10px;
+	}
+
+	.hero-section-title {
+		font-size: 60px;
+	}
+
+	.tours-container {
+		height: 900px;
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat(4, 1fr);
+	}
+
+	.tour-card:last-child {
+		grid-column: span 1;
+	}
+
+	.tour-card:nth-child(3) {
+		grid-row: span 2;
+	}
+
+	.services-grid {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.service-card:nth-child(3),
+	.service-card:nth-child(4) {
+		margin-top: 0;
+	}
+
+	.travel-grid {
+		columns: 2;
+	}
+
+	.book-now-img {
+		width: 40%;
+	}
+
+	.footer-logo {
+		width: 70px;
+	}
+
+	.footer-text {
+		font-size: 14px;
+	}
+}
