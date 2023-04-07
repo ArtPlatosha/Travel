@@ -427,3 +427,29 @@ body {
 	left: -125px;
 	bottom: -100px;
 }
+
+footer {
+	width: 100%;
+	padding: 100px 10vw;
+	background-color: #000;
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	align-items: center;
+	position: relative;
+}
+
+.footer-logo {
+	width: 100px;
+	opacity: 0.5;
+}
+
+.footer-text {
+	color: #fff;
+	opacity: 0.5;
+	font-size: 20px;
+}
+
+.footer-text p {
+	margin: 20px 0;
+}
